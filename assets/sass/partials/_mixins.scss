@@ -1,0 +1,6 @@
+@mixin transition ($time,$shape) {
+	transition:all $time $shape;
+	-webkit-transition:all $time $shape;
+	-moz-transition:all $time $shape;
+	-o-transition:all $time $shape;
+}
